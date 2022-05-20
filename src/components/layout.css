@@ -222,3 +222,59 @@ pre tt:before,
 pre tt:after {
   content: none;
 }
+
+.tags {
+  margin: .1rem .25rem;
+}
+
+.tags .tag {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.article-list .article {
+  border: 1px solid;  
+}
+
+.article-list .article .title {
+  padding: .25rem;
+  text-align: center;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.recipe-list .recipe-item {
+
+}
+
+.recipe-list .recipe-item .img {
+
+}
+
+.recipe-list .recipe-item .title {
+  text-align: center;
+}
+
+.recipe-tags {
+  margin-bottom: 1rem;
+}
+
+.recipe-tags .recipe-tag {
+  margin-right: .5rem;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: lightgray;
+  color: white;
+  padding: 5px;
+}
